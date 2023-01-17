@@ -1,1 +1,1 @@
-https://mern-stack-store.netlify.app/cart
+https://mern-stack-store.netlify.app
