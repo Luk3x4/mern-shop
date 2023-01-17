@@ -31,6 +31,7 @@ body{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             padding-top: 10px;
+            gap: 30px;
             .product{
                 padding: 15px;
                 border-radius: 10px;
@@ -333,10 +334,19 @@ body{
 
 @media screen and (max-width: 900px){
     body{
+        .cart{
+            .grid{
+                .product{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
         .singleprod{
             .product-inner{
                 height: 60vh;
-                width: 67vw;
+                width: 93vw;
             }
         }
         .products{
